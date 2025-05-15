@@ -1,11 +1,27 @@
 {
   "name": "root",
   "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "lerna": "^8.2.2"
+  },
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {},
-  "devDependencies": {
-    "lerna": "^8.2.2"
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senaerden58/gamebuss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senaerden58/gamebuss/issues"
+  },
+  "homepage": "https://github.com/senaerden58/gamebuss#readme",
+  "description": ""
 }
